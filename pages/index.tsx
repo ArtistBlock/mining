@@ -31,7 +31,7 @@ const Home: NextPage = () => {
     return (
       <Container maxW={"1200px"}>
         <Flex direction={"column"} h={"100vh"} justifyContent={"center"} alignItems={"center"}>
-          <Heading my={"40px"}>Welcom to Crypto Farm</Heading>
+          <Heading my={"40px"}>Welcom 2 Crypto Farm</Heading>
           <ConnectWallet />
         </Flex>
       </Container>
