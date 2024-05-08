@@ -1,43 +1,35 @@
+:root {
+  --primary-color: #bfa3da;
+  --secondary-color: #84309c;
+}
+
+.gradientText {
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradientText0 {
+  background: -webkit-linear-gradient(var(--primary-color), var(--secondary-color));
+}
+
+.gradientText1 {
+  background: -webkit-linear-gradient(#a79af9, #7aa8d2);
+}
+
+.gradientText2 {
+  background: -webkit-linear-gradient(var(--primary-color), #743f93);
+}
+
+.gradientText3 {
+  background: -webkit-linear-gradient(#c35ab1, #e9a8d9);
+}
+
 .container {
   width: 100%;
   max-width: 1440px;
   padding: 0 1rem;
   margin: 0 auto;
-}
-
-.gradientText0 {
-  background: -webkit-linear-gradient(#bfa3da, #84309c, #c735b0);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.gradientText1 {
-  background: -webkit-linear-gradient(#a79af9, #7aa8d2);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.gradientText2 {
-  background: -webkit-linear-gradient(#bfa3da, #743f93);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.gradientText3 {
-  background: -webkit-linear-gradient(#c35ab1, #e9a8d9);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-  text-decoration-color: #84309c;
 }
 
 .title {
@@ -59,13 +51,6 @@
   margin-bottom: 2rem;
   line-height: 1.5;
   font-size: 1.5rem;
-}
-
-.code {
-  background: #555;
-  border-radius: 5px;
-  padding: 0.5em;
-  font-size: 1.1rem;
 }
 
 .grid {
@@ -123,9 +108,6 @@
 }
 
 @media (max-width: 768px) {
-  .header {
-    margin-left: 0;
-  }
   .grid {
     width: 100%;
     flex-direction: column;
@@ -140,6 +122,7 @@
 .footer {
   border-color: #222;
 }
+
 .logo img {
   filter: invert(1);
 }
